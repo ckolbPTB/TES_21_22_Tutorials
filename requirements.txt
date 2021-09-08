@@ -2,6 +2,6 @@ numpy
 scipy
 matplotlib
 
-
+git+https://github.com/morphomatics/morphomatics.git#egg=morphomatics
   
     
