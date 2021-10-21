@@ -34,7 +34,7 @@ cd TES_21_22_Tutorials
 ```
 and enter:
 ```
-conda env create --file requirements.txt --name TES
+conda env create --file requirements.yml --name TES
 ```
 Now you can activate this environment using:
 ```
