@@ -8,6 +8,7 @@ They can be be run either by using binder:
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ckolbPTB/TES_21_22_Tutorials.git/HEAD)
 
 or by using Google colab:
+
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ckolbPTB/TES_21_22_Tutorials.git/HEAD/)
 
 The two links above will open the notebooks directly in your browser and you do not need not install any additional software.
@@ -40,6 +41,11 @@ Now you can activate this environment using:
 ```
 conda activate TES
 ```
-and start Jupyter notebooks. 
+
 ### Start notebooks
+In order to start the Jupyter notebooks enter
+```
+jupyer-notebook
+```
+in the terminal. This will then open the Jupyter notebook page in a browser window.
 
