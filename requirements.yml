@@ -1,4 +1,8 @@
-numpy
-scipy
-matplotlib
+channels:
+  - defaults
+dependencies:
+  - python
+  - numpy
+  - scipy
+  - matplotlib
 
