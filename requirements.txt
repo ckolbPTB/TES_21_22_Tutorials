@@ -1,6 +1,7 @@
 numpy
 scipy
 matplotlib
+torch==1.6.0
 
 git+https://github.com/morphomatics/morphomatics.git#egg=morphomatics
 ipyvtklink
