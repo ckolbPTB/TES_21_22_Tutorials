@@ -7,9 +7,9 @@ dependencies:
   - scipy
   - matplotlib
   - jupyter
-  - torch==1.6.0
   - pip:
     - git+https://github.com/morphomatics/morphomatics.git#egg=morphomatics
     - ipyvtklink
     - ipygany
+    - torch==1.6.0
 
