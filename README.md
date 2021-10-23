@@ -45,7 +45,7 @@ conda activate TES
 ### Start notebooks
 In order to start the Jupyter notebooks enter
 ```
-jupyer-notebook
+jupyter-notebook
 ```
 in the terminal. This will then open the Jupyter notebook page in a browser window.
 
