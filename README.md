@@ -9,6 +9,8 @@ They can be be run either by using binder:
 
 or by using Google colab:
 
+First tutorial, first practical session in Google colab:
+
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ckolbPTB/TES_21_22_Tutorials/blob/main/TV_and_TGV_Regularization.ipynb)
 
 The two links above will open the notebooks directly in your browser and you do not need not install any additional software.
