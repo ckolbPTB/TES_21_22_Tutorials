@@ -3,17 +3,19 @@ Tutorials for the Thematic Einstein Semester on Mathematics of Imaging in Real-W
 
 The idea of the tutorials is to run them via Jupyter notebooks. 
 The notebooks are designed to require little computational power. 
-They can be be run either by using binder:
+They can be be run by using binder:
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ckolbPTB/TES_21_22_Tutorials.git/HEAD)
 
+<!-- 
 or by using Google colab:
 
 First tutorial, first practical session in Google colab:
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ckolbPTB/TES_21_22_Tutorials/blob/main/TV_and_TGV_Regularization.ipynb)
+-->
 
-The two links above will open the notebooks directly in your browser and you do not need not install any additional software.
+The link above will open the notebooks directly in your browser and you do not need not install any additional software.
 If you would like to run to code on your own computer, please follow the installation instructions below. 
 If you want to do this, then please **try it well in advance to the tutorial**, because it will take some time.
 
