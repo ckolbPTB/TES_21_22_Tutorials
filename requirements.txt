@@ -2,6 +2,7 @@ numpy
 scipy
 matplotlib
 torch==1.7.1
+scikit-learn
 
 git+https://github.com/morphomatics/morphomatics.git#egg=morphomatics
 ipyvtklink

@@ -12,4 +12,5 @@ dependencies:
     - ipyvtklink
     - ipygany
     - torch==1.7.1
+    - scikit-learn
 
