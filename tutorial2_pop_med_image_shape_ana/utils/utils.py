@@ -31,3 +31,30 @@ def runClassification(nPartition, nRandomSamplings, features, labels):
         print(f'Part  {lp}  ({nPartition})')
 
     return avgAccuracyPerPartition, stdDevPerPartition
+
+
+def plotClassificationResults(data_list_avg, data_list_std):
+    data_list_std_high = [data_list_avg[0] + data_list_std[0], data_list_avg[1] + data_list_std[1]]
+
+    # cut off at 1.0
+    data_list_std_high[0][data_list_std_high[0] > 1.0] = 1.0
+    data_list_std_high[1][data_list_std_high[1] > 1.0] = 1.0
+    data_list_std_low = [data_list_avg[0] - data_list_std[0], data_list_avg[1] - data_list_std[1]]
+
+    label_list = ['FCM', 'PDM']
+
+    x = [100 * lp / (len(data_list_avg[0]) + 1) for lp in range(1, len(data_list_avg[0]) + 1)]
+    plt.figure(figsize=(12, 7))
+    for k in range(2):
+        plt.plot(x, data_list_avg[k], linestyle='-', marker='o', color=colors[k], label=label_list[k], lw=3, ms=12)
+        # some kind of whisker bars showing the standard deviation around the average
+        plt.vlines(x=x, ymin=data_list_std_low[k], ymax=data_list_std_high[k], colors=colors[k], lw=1.5)
+        plt.scatter(x, data_list_std_low[k], marker='_', color=colors[k], lw=1.5)
+        plt.scatter(x, data_list_std_high[k], marker='_', color=colors[k], lw=1.5)
+
+    plt.title('Osteoarthritis Classification')
+    plt.legend(loc='lower right')
+    plt.xlabel('% of data for training')
+    plt.ylabel('accuracy')
+    plt.xticks(range(0, 101, 10))
+    plt.show()
