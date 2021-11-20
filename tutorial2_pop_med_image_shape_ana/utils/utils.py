@@ -21,7 +21,7 @@ def classifyMultipleTimes(part, nRandomSampling, features, labels):
 
     return accuracyPerSampling
 
-def runClassification(nPartition, nRandomSamplings, features, labels):
+def runSVMClassification(nPartition, nRandomSamplings, features, labels):
     avgAccuracyPerPartition = np.empty([nPartition])
     stdDevPerPartition = np.empty([nPartition])
     for lp in range(1, nPartition + 1):
@@ -33,7 +33,7 @@ def runClassification(nPartition, nRandomSamplings, features, labels):
     return avgAccuracyPerPartition, stdDevPerPartition
 
 
-def plotClassificationResults(data_list_avg, data_list_std):
+def plotClassificationResults(data_list_avg, data_list_std, plt, colors):
     data_list_std_high = [data_list_avg[0] + data_list_std[0], data_list_avg[1] + data_list_std[1]]
 
     # cut off at 1.0
