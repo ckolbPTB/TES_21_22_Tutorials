@@ -7,3 +7,5 @@ scikit-learn
 git+https://github.com/morphomatics/morphomatics.git#egg=morphomatics
 ipyvtklink
 ipygany    
+
+git+https://git.fmrib.ox.ac.uk/fsl/fsl_mrs.git#egg=fsl_mrs
