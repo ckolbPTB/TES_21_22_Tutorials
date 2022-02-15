@@ -9,3 +9,4 @@ ipyvtklink
 ipygany    
 
 git+https://git.fmrib.ox.ac.uk/fsl/fsl_mrs.git#egg=fsl_mrs
+git+https://github.com/statsmodels/statsmodels#egg=statsmodels
