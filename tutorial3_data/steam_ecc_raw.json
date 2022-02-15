@@ -1,0 +1,45 @@
+{
+    "SpectrometerFrequency": [
+        297.219948
+    ],
+    "ResonantNucleus": [
+        "1H"
+    ],
+    "dim_5": "DIM_COIL",
+    "EchoTime": 0.011,
+    "RepetitionTime": 5.0,
+    "ExcitationFlipAngle": 90.0,
+    "TxOffset": -2.0,
+    "Manufacturer": "SIEMENS",
+    "ManufacturersModelName": "Investigational_Device_7T",
+    "DeviceSerialNumber": "18928.0",
+    "SoftwareVersions": "syngo MR B17",
+    "InstitutionName": "FMRIB University of Oxford",
+    "InstitutionAddress": "Street StreetNo,Oxford/d156c8/,District,GB,ZIP",
+    "RxCoil": "\"32Ch_Head_7T\"",
+    "SequenceName": "svs_st",
+    "ProtocolName": "STEAM_metab",
+    "PatientPosition": "HFS",
+    "PatientName": "F7T_2019_005_003",
+    "PatientWeight": 50.0,
+    "PatientDoB": "19810730.0",
+    "PatientSex": "M",
+    "ConversionMethod": "spec2nii v0.4.0",
+    "ConversionTime": "2022-02-14T13:54:02.504",
+    "OriginalFile": [
+        "meas_MID310_STEAM_metab_FID115673.dat"
+    ],
+    "kSpace": [
+        false,
+        false,
+        false
+    ],
+    "PulseSequenceFile": {
+        "Value": "%CustomerSeq%\\uzay_steam_gui",
+        "Description": "Sequence binary path."
+    },
+    "IceProgramFile": {
+        "Value": "%CustomerIceProgs%\\uzayIcePrgSpecOnline",
+        "Description": "Reconstruction binary path."
+    }
+}
