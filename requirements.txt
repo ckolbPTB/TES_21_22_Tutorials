@@ -4,6 +4,7 @@ matplotlib
 torch==1.7.1
 scikit-learn
 statsmodels
+openpyxl
 
 git+https://github.com/morphomatics/morphomatics.git#egg=morphomatics
 ipyvtklink
